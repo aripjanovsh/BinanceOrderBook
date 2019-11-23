@@ -7,7 +7,7 @@ import OrdersList from "./OrdersList";
 import MenuItem from '@material-ui/core/MenuItem';
 import FormControl from '@material-ui/core/FormControl';
 import Select from '@material-ui/core/Select';
-import {LEVELS_LIST, PAIRS_LIST} from '../../shared/constants/binance';
+import {PAIRS_LIST} from '../../shared/constants/binance';
 
 const useStyles = makeStyles({
     title: {
