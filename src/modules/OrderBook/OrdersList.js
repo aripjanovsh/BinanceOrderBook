@@ -52,9 +52,9 @@ export default function OrdersList({title, items}) {
                         return (
                             <TableRow key={key}>
                                 <TableCell>{price.toFixed(2)}</TableCell>
-                                <TableCell>{amount.toFixed(2)}</TableCell>
-                                <TableCell>{total.toFixed(2)}</TableCell>
-                                <TableCell>{sum.toFixed(2)}</TableCell>
+                                <TableCell>{amount.toFixed(6) }</TableCell>
+                                <TableCell>{total.toFixed(8)}</TableCell>
+                                <TableCell>{sum.toFixed(8)}</TableCell>
                             </TableRow>
                         )
                     })}
